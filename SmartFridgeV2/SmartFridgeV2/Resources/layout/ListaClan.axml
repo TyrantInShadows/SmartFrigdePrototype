@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:weightSum="100"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:id="@+id/linearLayout1" >
+		<TextView
+			android:text="Ime"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_weight="40"
+			android:gravity="left"
+			android:layout_height="match_parent"
+			android:id="@+id/txtIme" />
+		<TextView
+			android:text="Kolicina"
+			android:layout_weight="40"
+			android:gravity="left"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/txtkol" />
+		<TextView
+			android:text="Mera"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_weight="20"
+			android:gravity="left"
+			android:layout_height="match_parent"
+			android:id="@+id/txtMera" />
+	</LinearLayout>
+
+</LinearLayout>

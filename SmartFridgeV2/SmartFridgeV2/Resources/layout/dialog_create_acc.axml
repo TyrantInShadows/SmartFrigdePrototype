@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:minWidth="@dimen/abc_config_prefDialogWidth"
+	android:minHeight="300dp"
+    android:layout_width="fill_parent"
+	android:background="#DEDEDE"
+    android:layout_height="fill_parent">
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Username"
+		android:id="@+id/txtDialogUser" />
+	<EditText
+		android:layout_width="match_parent"
+		android:hint="Password"
+		android:inputType="textPassword"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtDialogPass" />
+	<Button
+		android:text="Create account"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#BAFAFA"
+		android:id="@+id/btnDialogCreateAccount" />
+	<Button
+		android:text="Cancel"
+		android:layout_width="match_parent"
+		android:background="#BAFAFA"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnDialogCancel" />
+
+</LinearLayout>

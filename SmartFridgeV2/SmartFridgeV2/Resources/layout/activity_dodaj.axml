@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1">
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25dp"
+			android:minHeight="25dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="35dp"
+			android:layout_marginBottom="20dp"
+			android:id="@+id/linearLayout2">
+			<TextView
+				android:text="Unesi ime namirnice"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:id="@+id/textView1" />
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/imeNamirnice" />
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25dp"
+			android:minHeight="25dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout3">
+			<TextView
+				android:text="Unesi kolicinu namirnice"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:id="@+id/textView2" />
+			<EditText
+				android:inputType="number"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/kolicinaNamirnice" />
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:weightSum="100"
+			android:id="@+id/linearLayout4">
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:text="cancel"
+				android:layout_weight="50"
+				android:gravity="center"
+				android:id="@+id/cancelBtn" />
+			<Button
+				android:text="dodaj"
+				android:layout_width="wrap_content"
+				android:gravity="center"
+				android:layout_weight="50"
+				android:layout_height="match_parent"
+				android:id="@+id/dodajNamBtn" />
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:weightSum="100"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout5" >
+			<TextView
+				android:text="Izaberi jedinicu mere: "
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:layout_weight="70"
+				android:textStyle="bold"
+				android:layout_height="match_parent"
+				android:id="@+id/textView3" />
+			<Spinner
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="30"
+				android:id="@+id/spinner1" />
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

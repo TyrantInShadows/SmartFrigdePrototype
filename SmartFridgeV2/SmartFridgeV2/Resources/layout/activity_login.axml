@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="LOGIN PAGE"
+            android:textColor="#364373"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+        <EditText
+			android:hint="Username"
+			android:textColorHint="@android:color/holo_blue_light"
+            android:paddingTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+			android:textColorHint="@android:color/holo_blue_light"
+            android:inputType="textPassword"
+            android:paddingTop="20dp"
+            android:id="@+id/password" />
+        <Button
+            android:text="Login"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/userSilhouette"
+            android:id="@+id/loginBnt" />
+		<Button
+        android:text="Create new Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+			android:drawableLeft="@drawable/createicon"
+		android:background="@drawable/buttonstyle"
+        android:id="@+id/btnCreate" />
+    </LinearLayout>
+    
+	
+
+</LinearLayout>

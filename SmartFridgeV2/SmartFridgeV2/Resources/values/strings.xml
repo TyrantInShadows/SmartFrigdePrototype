@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SmartFridgeV2</string>
+    <string name="action_settings">Settings</string>
+  <string-array name="mere">
+    <item>komada</item>
+    <item>kg</item>
+    <item>g</item>
+    <item>l</item>
+    <item>ml</item>
+  </string-array>
+</resources>
