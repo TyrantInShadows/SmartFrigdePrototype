@@ -77,7 +77,7 @@ namespace SmartFridgeV2
             }
             if (count == 0)
             {
-                Toast.MakeText(this, "Ne postoji korisnik", ToastLength.Long).Show();
+                Toast.MakeText(this, "Pogrsno uneto korisnicko ime ili sifra", ToastLength.Long).Show();
             }
 
         }
